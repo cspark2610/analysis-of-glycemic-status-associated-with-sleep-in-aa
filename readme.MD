@@ -62,170 +62,27 @@ Stepwise logistic regression was used to model glycemic status by sleep duration
 ## Results
 In total 1,725 participants were included for this analysis. As shown in Table 1, the proportion of diabetes in Asian Americans was estimated to be 16% (n=216), while the proportion of prediabetes in Asian Americans was estimated to be 31% (n=500). The mean age of the analytic sample was 47 years old, and the analytic sample was composed of 55% females and 45% males. Among the primary sleep measures, NSD/NSQ comprised most of the analytic sample (51%), while, LSD/PSQ comprised lowest of the analytic sample (2.4%). Overall, sleep measures that were stratified by NSQ yielded higher proportion of subjects than those of PSQ. Nearly all participants were defined with not having depression based on the PHQ-9 depression scale (97%). An estimated 63% of subjects reported to be US citizens and 37% reported to be non-US citizens. Most subjects were presented with normal BMI (54%), however, there was a high proportion of overweight participants (31%). Majority of the subjects were non-smokers, presented normal blood pressure levels, and engaged in no physical activity. Roughly equal proportions of subjects reported to have consumed and not consumed at least 12 drinks per year.
 
-![alt text](https://github.com/cspark2610/cross-sectional-analysis-of-glycemic-status-assocaited-with-sleep-duration-and-quality-in-asian-amer/blob/master/images/table_0.png?raw_true)
+![alt text](https://github.com/cspark2610/cross-sectional-analysis-of-glycemic-status-assocaited-with-sleep-duration-and-quality-in-asian-amer/blob/master/images/table_1_0.png?raw_true)
+![alt text](https://github.com/cspark2610/cross-sectional-analysis-of-glycemic-status-assocaited-with-sleep-duration-and-quality-in-asian-amer/blob/master/images/table_1_1.png?raw_true)
 
 A total of 1,224 subjects from the final analytic sample provided measures for both diabetes and sleep duration/quality and a total of 1,509 provided measures for prediabetes and sleep duration/quality. Bivariate analysis for diabetes is shown in Table 2. Diabetes was found to be statistically significant with the primary outcome sleep duration/quality (p <0.002). All covariates were found to be statistically significant with exception of PHQ-9 and PAQ.
 Prediabetes was not found to be statistically significant with the main exposure, sleep duration/quality (p <0.060). Therefore, logistic regression was only conducted for diabetes.
 
-Table 2. Bivariate analysis between diabetes sociodemographic, behavioral and health information for 1,224 National Health and Nutrition Examination Survey (NHANES) Participant in the U.S (2011-2016) (Unweighted Sample and Weighted proportion)
-	Total	Diabetes	
-	
-N (%)	No
-n (%)	Yes
-n (%)	
-p-value 
-Mean age	48	42	59	<0.001
-Sex				0.004
-Male	    	580 (45.00)	452 (43.00)	128 (55.00)	
-Female	645 (55.00)	557 (57.00)	88 (45.00)	
-Sleeping Duration and Quality				0.002
-NSD (7-8 Hours) & NSQ  	617 (51.00)	526 (53.00)	91 (41.00)	
-VSSD (≤6 Hours) & NSQ 	64 (5.10)	47 (4.50)	17 (7.80)	
-SSD (6-7 Hours) & NSQ	260 (20.00)	220 (21.00)	40 (17.00)	
-LSD (>8 Hours) & NSQ	117 (10.00)	88 (9.30)	29 (14.00)	
-NSD (7-8 Hours) & PSQ	72 (6.10)	57 (5.70)	15 (8.00)	
-VSSD (≤6 Hours) & PSQ 	27 (2.00)	16 (1.50)	11 (4.40)	
-SSD (6-7 Hours) & PSQ	36 (3.00)	4 (1.90)	32 (3.20)	
-LSD (>8 Hours) & PSQ	31 (2.90)	22 (2.40)	9 (5.30)	
-Patient Health Questionnaire (PHQ-9)				0.101
-Not depressed		940 (96.00)	781 (97.00)	159 (93.00)	
-Depressed	36 (3.80)	24 (3.00)	12 (7.00)	
-Citizenship status				0.011
-US citizen 	753 (61.00)	609 (59.00)	144 (69.00)	
-Not US citizen	471 (39.00)	399 (41.00)	72 (31.00)	
-Marital Status				
-Married	904 (74.00)	749 (74.00)	155 (73.00)	<0.001
-Formerly married	112 (8.80)	74 (7.20)	38 (17.00)	
-Never married	170 (14.00)	155 (16.00)	15 (6.90)	
-Living with partner	38 (3.10)	31 (3.10)	7 (3.00)	
-Body Mass Index				
-Normal	715 (59.00)	625 (62.00)	90 (42.00)	<0.001
-Underweight	40 (3.20)	38 (3.60)	2 (1.10)	
-Overweight	335 (27.00)	251 (25.00)	84 (37.00)	
-Obese	117 (10.00)	79 (8.60)	38 (19.00)	
-Smoking 				
-Non-smoker	919 (77.00)	777 (79.00)	142 (68.00)	<0.001
-Former smoker	200 (15.00)	148 (13.00)	52 (22.00)	
-Current smoker 	105 (8.20)	83 (7.90)	22 (9.90)	
-Blood Pressure				
-Normal 	681 (63.00)	613 (68.00)	68 (35.00)	<0.001
-Elevated 	187 (17.00)	146 (16.00)	41 (22.00)	
-Stage one	128 (11.00)	93 (10.00)	35 (19.00)	
-Stage two 	110 (9.20)	63 (6.30)	47 (24.00)	
-Alcohol Consumption				<0.001
-Had at least 12 alcoholic drinks per year	519 (52.00)	445 (54.00)	74 (40.00)	
-Did not have up to 12 alcoholic drink per year	462 (48.00)	361 (46.00)	101 (60.00)	
-Physical Activity (PAQ)				0.180
-None	967 (80.00)	793 (79.00)	174 (82.00)	
-Moderate	166 (13.00)	145 (14.00)	21 (9.50)	
-Vigorous	92 (6.90)	71 (6.50)	21 (8.80)	
-  Pearson’s χ2 unless otherwise indicated
+![alt text](https://github.com/cspark2610/cross-sectional-analysis-of-glycemic-status-assocaited-with-sleep-duration-and-quality-in-asian-amer/blob/master/images/table_2_0.png?raw_true)
+![alt text](https://github.com/cspark2610/cross-sectional-analysis-of-glycemic-status-assocaited-with-sleep-duration-and-quality-in-asian-amer/blob/master/images/table_2_1.png?raw_true)
 
 Stepwise logistic regression was performed to assess the relationship between diabetes and covariates shown in Table 3. Stepwise regression confirmed that all covariates adequately fitted the logistic regression model (p <0.001), apart from PHQ-9. Therefore, backward elimination of PHQ-9 was used to compensate for over fitting of the final logistic model. 
 
-Table 3. Stepwise Logistic Regression Analysis Predicting Diabetes for 1,485 Asian Participants in the National Health and Nutrition Examination Survey (NHANES) 
-Step	Predictors	OR (95% CI)	F 
-1			11.68**
-	Constant	0.00	
-	Sleeping Duration and Quality		
-	NSD (7-8 Hours) & NSQ  	1	
-	VSSD (≤5 Hours) & NSQ 	1.90 (.81-4.42)	
-	SSD (5-7 Hours) & NSQ	.78 (.40-1.50)	
-	LSD (>8 Hours) & NSQ	2.32 (1.05-5.14)	
-	NSD (7-8 Hours) & PSQ	2.83 (1.39-5.76)	
-	VSSD (≤5 Hours) & PSQ 	3.07 (1.18-8.00)	
-	SSD (5-7 Hours) & PSQ	.76 (.21-2.81)	
-	LSD (>8 Hours) & PSQ	1.13 (.34-3.73)	
-	Age	1.10 (1.08-1.13)	
-	Sex		
-	Male	1	
-	Female	.59 (.35-1.00)	
-	Citizenship status		
-	US citizen 	1	
-	Not US citizen	.97 (.56-1.68)	
-	Marital Status		
-	Married	1	
-	Formerly married	.68 (.37-1.27)	
-	Never married	1.39 (.64-3.04)	
-	Living with partner	.80 (.15-4.19)	
-2			10.97**
-	Alcohol Consumption		
-	Had at least 12 alcoholic drinks per year	1	
-	Did not have up to 12 alcoholic drink per year	1.87 (1.17-2.97)	
-	Smoking 		
-	Non-smoker	1	
-	Former smoker	1.31 (.69-2.48)	
-	Current smoker 	1.90 (.95-3.80)	
-3			10.27**
-	Physical Activity		
-	None	1	
-	Moderate	.87 (.37-2.05)	
-	Vigorous	1.55 (.62-3.89)	
-	Body Mass Index		
-	Normal	1	
-	Underweight	.48 (.15-1.57)	
-	Overweight	2.75 (1.48-5.11)	
-	Obese	7.05 (3.67-13.53)	
-	Blood Pressure		
-	Normal 	1	
-	Elevated 	.77 (.43-1.37)	
-	Stage one	1.08 (.57-2.05)	
-	Stage two	2.07 (1.06-4.04)	
-OR = Odds ratio
-CI = Confidence interval
-** p <0.001
+![alt text](https://github.com/cspark2610/cross-sectional-analysis-of-glycemic-status-assocaited-with-sleep-duration-and-quality-in-asian-amer/blob/master/images/table_3_1.png?raw_true)
+![alt text](https://github.com/cspark2610/cross-sectional-analysis-of-glycemic-status-assocaited-with-sleep-duration-and-quality-in-asian-amer/blob/master/images/table_3_2.png?raw_true)
 
 The results of the final logistic model for diabetes and sleep duration/quality in Asian American subgroups are shown in Table 4, which was found to be statistically significant (p <0.001). The findings, shown in Figure 1, indicate that Asian Americans who reported having LSD/NSQ presented 2.32 (95% CI 1.05-5.14, p <0.038) higher odds of having diabetes than those who reported having NSD/NSQ. Additionally, subjects who reported having VSSD/PSQ and NSD/PSQ presented having 3.07 (95% CI 1.18-8.00, p <0.023) and 2.83 (95% CI 1.39-5.76, p <0.005) higher odds, respectively, than those subjects who reported having NSD/NSQ. Subsequent predictors were also found to be statistically significant, in order of odds ratio that include females, age, alcohol consumption, overweight (BMI), stage II hypertension, and obese (BMI). All other sleep measures did not suggest any relationship with diabetes. 
 
-Table 4. Logistic Regression Models Predicting Diabetes for 1,485 Asian Participants in the National Health and Nutrition Examination Survey (NHANES) 
-	OR (95% CI)	p Value
-Mean age	1.10 (1.08-1.13)	<0.001
-Sex		
-Male	1	
-Female	.59 (.35-1.00)	0.048
-Sleeping Quality and Duration		
-NSD (7-8 Hours) & NSQ  	1	
-VSSD (≤5 Hours) & NSQ 	1.90 (.81-4.42)	0.134
-SSD (5-7 Hours) & NSQ	.78 (.40-1.50)	0.443
-LSD (>8 Hours) & NSQ	2.32 (1.05-5.14)	0.038
-NSD (7-8 Hours) & PSQ	2.83 (1.39-5.76)	0.005
-VSSD (≤5 Hours) & PSQ 	3.07 (1.18-8.00)	0.023
-SSD (5-7 Hours) & PSQ	.76 (.21-2.81)	0.675
-LSD (>8 Hours) & PSQ	1.13 (.34-3.73)	0.837
-Citizenship Status		
-US Citizen 	1	
-Not a US Citizen	.97 (.56-1.68)	0.913
-Marital Status		
-Married	1	
-Formerly Married	.68 (.37-1.27)	0.224
-Never Married	1.39 (.64-3.04)	0.400
-Living with Partner	.80 (.15-4.19)	0.786
-Body Mass Index		
-Normal	1	
-Underweight	.48 (.15-1.57)	0.219
-Overweight	2.75 (1.48-5.11)	0.002
-Obese	7.05 (3.67-13.53)	<0.001
-Smoking 		
-Non-smoker	1	
-Former smoker	1.31 (.69-2.48)	0.407
-Current smoker 	1.90 (.95-3.80)	0.069
-Blood Pressure		
-Normal 	1	
-Elevated 	.77 (.43-1.37)	0.363
-Stage one	1.08 (.57-2.05)	0.811
-Stage two	2.07 (1.06-4.04)	0.034
-Alcohol Consumption		
-Had at least 12 alcoholic drinks per year	1	
-Did not have up to 12 alcoholic drink per year	1.87 (1.17-2.97)	0.010
-Physical Activity		
-None	1	
-Moderate	.87 (.37-2.05)	0.744
-Vigorous	1.55 (.62-3.89)	0.344
-OR = Odds ratio
-CI = Confidence interval
+![alt text](https://github.com/cspark2610/cross-sectional-analysis-of-glycemic-status-assocaited-with-sleep-duration-and-quality-in-asian-amer/blob/master/images/table_4_1.png?raw_true)
+![alt text](https://github.com/cspark2610/cross-sectional-analysis-of-glycemic-status-assocaited-with-sleep-duration-and-quality-in-asian-amer/blob/master/images/table_4_2.png?raw_true)
   
-Figure 1. Odds Ratio and 95% Confidence Intervals of having Type II Diabetes among Sleep Duration/Quality Measures Relative to Normal Sleep Duration/Normal Sleep Quality. 
-*Long sleep duration (LSD) is defined as >8 hours of sleep, normal sleep duration (NSD) is defined as 7-8 hours of sleep, short sleep (SSD) duration is defined as 6-7 hours of sleep, and very short sleep duration (VSSD) is defined as ≤6 hours of sleep. Sleep duration was stratified by poor sleep quality (PSQ) and normal sleep quality (NSQ).
+
+![alt text](https://github.com/cspark2610/cross-sectional-analysis-of-glycemic-status-assocaited-with-sleep-duration-and-quality-in-asian-amer/blob/master/images/figure_1.png?raw_true)
 
 ## Discussion
 Using the NHANES dataset, Asian Americans with NSD/PSQ had 2.83 higher odds of having diabetes than Asian Americans who had NSD/NSQ. This discovery aligns with the findings of the study conducted in South Korea, which found that among healthy populations, sleep quality, alone, was associated with an increase in glycemic levels in Asian populations. 8 It also further supports the results from another cross-sectional study using the NHANES that found subjects who reported having poor quality sleep were associated with 3.5 higher odds of having prediabetes. 9 Moreover, Asian Americans with LSD/NSQ and VSSD/PSQ had 2.32 higher odds and 3.07 higher odds of having diabetes than those who had NSD/NSQ, respectively. These results also support the findings of a study conducted in the US, which found that subjects who reported having short sleep (≤5 Hours) and long sleep (≥9 Hours) were, respectively, at 1.47 and 1.52 higher odds of developing diabetes than healthy individuals. 3 It also backs the results of a 5-year cross-sectional study conducted in China, where investigators discovered that individuals who reported having short sleep (≤5 Hours) in combination with poor quality of sleep, were at 6.21 times higher risk of developing diabetes than healthy individuals. 4 
