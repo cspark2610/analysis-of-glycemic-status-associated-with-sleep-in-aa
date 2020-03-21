@@ -2,11 +2,17 @@
 
 By: Christopher S Park
 Bachelor of Science in Cell Biology and Neuroscience, Rutgers University, 2014
+
 Thesis Advisor: Thomas Kirchner, MS, PhD
+
 A Master’s thesis submitted in partial fulfillment of the requirements for the degree of Master of Public Health
+
 Biostatistics Concentration
+
 College of Global Public Health
+
 New York University
+
 May 2019
 
 ## Abstract
@@ -56,59 +62,7 @@ Stepwise logistic regression was used to model glycemic status by sleep duration
 ## Results
 In total 1,725 participants were included for this analysis. As shown in Table 1, the proportion of diabetes in Asian Americans was estimated to be 16% (n=216), while the proportion of prediabetes in Asian Americans was estimated to be 31% (n=500). The mean age of the analytic sample was 47 years old, and the analytic sample was composed of 55% females and 45% males. Among the primary sleep measures, NSD/NSQ comprised most of the analytic sample (51%), while, LSD/PSQ comprised lowest of the analytic sample (2.4%). Overall, sleep measures that were stratified by NSQ yielded higher proportion of subjects than those of PSQ. Nearly all participants were defined with not having depression based on the PHQ-9 depression scale (97%). An estimated 63% of subjects reported to be US citizens and 37% reported to be non-US citizens. Most subjects were presented with normal BMI (54%), however, there was a high proportion of overweight participants (31%). Majority of the subjects were non-smokers, presented normal blood pressure levels, and engaged in no physical activity. Roughly equal proportions of subjects reported to have consumed and not consumed at least 12 drinks per year.
 
-Table 1. Sociodemographic, behavioral, and health information for 1,725 National Health and Nutrition Examination Survey (NHANES) Participants in the U.S (2011-2016) (Unweighted Sample and Weighted proportion)
-Characteristic	N (%)
-Age (mean) (years)	48
-Sex	
-Male	824 (45.00)
-Female	901 (55.00)
-Diabetes	
-No	1009 (84.00)
-Yes	216 (16.00)
-Pre-Diabetes	
-No	1009 (69.00)
-Yes	500 (31.00)
-Sleep Duration & Quality	
-NSD (7-8 Hours) & NSQ  	870 (51.00)
-VSSD (≤5 Hours) & NSQ 	100 (5.50)
-SSD (5-7 Hours) & NSQ	354 (20.00)
-LSD (>8 Hours) & NSQ	153 (9.60)
-NSD (7-8 Hours) & PSQ	112 (6.70)
-VSSD (≤5 Hours) & PSQ 	47 (2.40)
-SSD (5-7 Hours) & PSQ	51 (3.00)
-LSD (>8 Hours) & PSQ	37 (2.40)
-Patient Health Questionnaire	
-Not depressed	1352 (97.00)
-Depressed	46 (3.30)
-Citizenship status	
-US Citizen 	1103 (63.00)
-Non-US Citizen	619 (37.00)
-Marital Status	
-Married	1287 (74.00)
-Formerly married	190 (11.00)
-Never married	199 (12.00)
-Living with partner	48 (2.80)
-Body Mass Index	
-Normal	918 (54.00)
-Underweight	50 (2.90)
-Overweight	533 (31.00)
-Obese	203 (13.00)
-Smoking 	
-Non-smoker	1272 (76.00)
-Former smoker	297 (16.00)
-Current smoker 	155 (8.70)
-Blood Pressure	
-Normal 	866 (56.00)
-Elevated 	288 (18.00)
-Stage one	199 (13.00)
-Stage two 	211 (13.00)
-Alcohol Consumption	
-Had at least 12 alcoholic drinks per year	713 (50.00)
-Did not have up to 12 alcoholic drink per year	693 (50.00)
-Physical Activity	
-None	1,339 (78.00)
-Moderate	248 (14.00)
-Vigorous	138 (7.40)
+![alt text](https://github.com/cspark2610/cross-sectional-analysis-of-glycemic-status-assocaited-with-sleep-duration-and-quality-in-asian-amer/blob/master/images/table_0.png?raw_true)
 
 A total of 1,224 subjects from the final analytic sample provided measures for both diabetes and sleep duration/quality and a total of 1,509 provided measures for prediabetes and sleep duration/quality. Bivariate analysis for diabetes is shown in Table 2. Diabetes was found to be statistically significant with the primary outcome sleep duration/quality (p <0.002). All covariates were found to be statistically significant with exception of PHQ-9 and PAQ.
 Prediabetes was not found to be statistically significant with the main exposure, sleep duration/quality (p <0.060). Therefore, logistic regression was only conducted for diabetes.
