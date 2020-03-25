@@ -1,13 +1,15 @@
-/*Do File for Thesis*/
+/******Thesis******/
+/******DoFile******/
 
-use "C:\Users\Christopher\Desktop\NHANES DATA\1NHANES", clear
+use "\nhanes_data\1NHANES", clear
 
- use "C:\Users\csp324\Desktop\1NHANES.dta"
 *Survey Weights* USE MEC for A1c, 2 cycles 2011-2014
 gen wtmec6yr = wtmec2yr/3
 svyset [pw = wtmec6yr], psu(sdmvpsu) strata(sdmvstra) singleunit(centered)
-/*gen includions not missing, following exlcusion */
-// Gen sample population, Asians over 20
+
+/* gen inclusions not missing, following exclusions */
+
+// Gen sample population, Asians over 25
 gen asian = .
 replace asian = 1 if ridreth3 == 6
 replace asian = 0 if ridreth3 == 1
@@ -16,11 +18,9 @@ replace asian = 0 if ridreth3 == 3
 replace asian = 0 if ridreth3 == 4
 replace asian = 0 if ridreth3 == 7
 replace asian = 0 if ridreth3 == .
-//diabetes type1 control
 replace asian = . if ridageyr<=25
 
-
-// A1c
+// Generate dependent variable, A1c -> diabetes
 gen a1c = . 
 label define a1c_label 0 "Normal A1c" 1 "Prediabetic A1c" 2 "Diabetic A1c"
 label values a1c a1c_label
@@ -28,18 +28,17 @@ replace a1c = 0 if (lbxgh <5.7) & (lbxgh >3)
 replace a1c = 1 if (lbxgh >= 5.7) & (lbxgh <= 6.4)
 replace a1c = 2 if (lbxgh >6.4) & (lbxgh <18)
 
-*outcome 
 *diabetes
 gen diabetes=. 
 replace diabetes=0 if a1c==0
 replace diabetes=1 if a1c==2
 
-*pre diabetes
+*prediabetes
 gen prediabetes=. 
 replace prediabetes=0 if a1c==0
 replace prediabetes=1 if a1c==1
 
-//Sleep Hours
+// Generate and Bin Sleep Hours variable slp
 tab sld012
 gen slpd = .
 replace slpd = 1 if(sld012>1)&(sld012<5.5)
@@ -62,8 +61,7 @@ replace slp = 4 if slpd==4 | slpd1==4
 label define slp 1 "Very Short Sleep" 2 "Short Sleep" 3 "Normative Sleep" 4 "Long Sleep" 
 label values slp  slp
 
-tab slp
-//sleep quality 
+// Generate and bin sleep quality variable slp_zz
 recode slq050 (9 7 = .)
 *exp
 
@@ -80,7 +78,7 @@ replace slp_zz=8 if slq050==1 & slp==4 // bad, long
 tab slp_zz
 
 
-*/
+// PHQ depression
 *sample 
 gen asian_a = 0
 replace asian_a= 1 if asian==1 & a1c!=. & slp !=. 
@@ -134,10 +132,8 @@ replace PHQ_2 = 99 if PHQ_1 == 891
 recode PHQ_2 (99=.)
 
 tab PHQ_2,m
-*
-	recode dpq100 (7=.)(9=.)
 
-	
+
 *Gender
 label define riagendr_label 1 "Male" 2 "Female"
 label values riagendr riagendr_label
@@ -195,6 +191,7 @@ replace bloodpressure = . if (bloodpressure>=180)&(bloodpressure<240)
 replace bloodpressure = . if (bloodpressure<90)&(bloodpressure>60)
 label define bloodpressure_label 1 "Good" 2 "Slightly elevated" 3 "HTN1" 4 "HTN2"
 label values bloodpressure bloodpressure_label
+
 *BMI 
 rename bmxbmi bmi
 replace bmi = 1 if (bmi>=18.5)&(bmi<25)
